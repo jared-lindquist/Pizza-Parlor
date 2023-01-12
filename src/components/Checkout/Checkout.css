@@ -1,0 +1,57 @@
+#customer-info {
+    list-style: none;
+    text-align: left;
+}
+
+#checkout {
+    background-color:rgb(141, 220, 21);
+    float: right;
+    padding: 10px;
+    margin: 20px 150px 20px 0;
+}
+
+#checkout-total {
+    font-size: large;
+    float: right;
+    margin: 20px 150px 0 0;
+}
+
+#customer-container {
+    border: 1px solid black;
+    width: 500px;
+    margin: 20px;
+    padding: 0 10px;
+    background-color: honeydew;
+    text-align: left;
+}
+
+#order-table {
+    margin: 20px;
+}
+
+#order-table th {
+    width: 90%;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: left;
+    background-color: rgb(164, 211, 206);
+}
+
+#order-table tr {
+    width: 90%;
+    border: 5px solid black;
+    padding: 20px;
+    text-align: left;
+    background-color:rgba(164, 211, 206, 0.494);
+}
+
+#order-table tr:nth child(even) {
+    background-color: #f2f2f2;
+}
+
+#order-table tr:hover {background-color:rgb(200, 199, 199);}
+
+.show-info {
+    text-align: left;
+    color: darkblue;
+}

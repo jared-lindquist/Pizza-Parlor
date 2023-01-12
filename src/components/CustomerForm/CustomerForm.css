@@ -1,0 +1,48 @@
+.next-btn {
+    height: 50px;
+    width: 100px;
+    font-size: 24px;
+    align-self: flex-end;
+    margin-right: 100px;
+}
+
+form {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+}
+
+#customer-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#text-input, #radio-input {
+    margin: 40px;
+    
+}
+
+#text-input {
+    text-align: left;
+}
+  
+#text-input input {
+    padding: 10px;
+    margin: 20px;
+    font-size: 16px;
+    width: 300px;
+}
+
+#radio-input {
+    width: 300px;
+    text-align: left;
+}
+  
+#radio-input input {
+    margin: 20px;
+}
+
+#radio-input label {
+    font-size: 20px;
+}
